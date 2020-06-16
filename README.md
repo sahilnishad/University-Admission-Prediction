@@ -14,9 +14,8 @@ This is a multiple linear regression model bulit using scikit-learn to predict t
 #
 source of dataset is https://www.kaggle.com/mohansacharya/graduate-admissions?select=Admission_Predict_Ver1.1.csv
 #
+
 ## Comparison Between Prediction Value & Actual Value
-
-
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -85,5 +84,3 @@ source of dataset is https://www.kaggle.com/mohansacharya/graduate-admissions?se
 </table>
 <p>75 rows × 2 columns</p>
 </div>
-
-#
