@@ -11,12 +11,12 @@ This is a multiple linear regression model bulit using scikit-learn to predict t
 * Rating of Letter of Recommendation(LOR)
 * CGPA
 * Research
-
-note: source of dataset is https://www.kaggle.com/mohansacharya/graduate-admissions?select=Admission_Predict_Ver1.1.csv
-
+#
+source of dataset is https://www.kaggle.com/mohansacharya/graduate-admissions?select=Admission_Predict_Ver1.1.csv
+#
 ## Comparison Between Prediction Value & Actual Value
 
-</style>
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -85,3 +85,18 @@ note: source of dataset is https://www.kaggle.com/mohansacharya/graduate-admissi
 </table>
 <p>75 rows × 2 columns</p>
 </div>
+
+
+## Accuracy 
+accuracy = model.score(x_test, y_test)
+accuracy
+```
+
+
+
+
+    0.804032784908241
+
+
+
+Accuracy of this multivariate linear regression model is around 80% 
