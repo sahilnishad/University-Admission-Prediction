@@ -86,17 +86,14 @@ source of dataset is https://www.kaggle.com/mohansacharya/graduate-admissions?se
 <p>75 rows × 2 columns</p>
 </div>
 
-
+#
 ## Accuracy 
+```python
 accuracy = model.score(x_test, y_test)
 accuracy
-```
-
-
-
 
     0.804032784908241
-
-
+---
 
 Accuracy of this multivariate linear regression model is around 80% 
+#
