@@ -2,7 +2,7 @@
 #
 ![](/image/cover.png)
 
-This is a multiple linear regression model bulit using scikit-learn to predict the chances of admission in universitiy with an accuracy of 80% based on the following features :
+This is a multiple linear regression model built using sklearn to predict the chances of admission in university with an accuracy of 80% based on the following features :
 
 * GRE Score 
 * TOEFL Score 
@@ -14,6 +14,10 @@ This is a multiple linear regression model bulit using scikit-learn to predict t
 #
 source of dataset is https://www.kaggle.com/mohansacharya/graduate-admissions?select=Admission_Predict_Ver1.1.csv
 #
+## Application Of This Prediction :
+1. It will save students time by giving them their chance of admission in a particular university so that they can decide whether or not to apply in it or not.
+2. As the prediction is solely dependent on certain academic records so the candidate can know where they are lying in terms of academics.
+3. 
 
 ## Comparison Between Actual Value & Prediction Value
 <table border="1" class="dataframe">
