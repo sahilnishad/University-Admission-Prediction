@@ -14,12 +14,14 @@ This is a multiple linear regression model built using sklearn to predict the ch
 #
 source of dataset is https://www.kaggle.com/mohansacharya/graduate-admissions?select=Admission_Predict_Ver1.1.csv
 #
-## Application Of This Prediction :
-1. It will save students time by giving them their chance of admission in a particular university so that they can decide whether or not to apply in it or not.
-2. As the prediction is solely dependent on certain academic records so the candidate can know where they are lying in terms of academics.
-3. 
+## Application Of This Prediction 
+* It will save students time by giving them their chance of admission in a particular university so that they can decide on planning their admission procedure.
+* As the prediction is solely dependent on certain academic records, so the candidate can know where they are lying in terms of academics.
+* While plotting heatmap of the dataset, you can clearly see that certain features impacts more while predicting the chances than other. This will help student to know the weightage of each scores so they can plan accordingly. This way they can set their priorities.
 
 ## Comparison Between Actual Value & Prediction Value
+After fitting the model, we can compare the actual values(y_test) with respect to the predicted values & the comparison is shown below:
+
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
