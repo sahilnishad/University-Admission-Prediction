@@ -14,7 +14,7 @@ This is a multiple linear regression model built using sklearn to predict the ch
 #
 source of dataset is https://www.kaggle.com/mohansacharya/graduate-admissions?select=Admission_Predict_Ver1.1.csv
 #
-## order of features that plays important role in predicting chance of admission :
+## order of features that plays important role in predicting chance of admission:
 ```
 CGPA (0.88) 
 GRE Score (0.81)
