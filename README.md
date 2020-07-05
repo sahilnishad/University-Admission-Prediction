@@ -14,6 +14,19 @@ This is a multiple linear regression model built using sklearn to predict the ch
 #
 source of dataset is https://www.kaggle.com/mohansacharya/graduate-admissions?select=Admission_Predict_Ver1.1.csv
 #
+## order of features that plays important role in predicting chance of admission :
+```
+CGPA (0.88) 
+GRE Score (0.81)
+TOEFL Score (0.79)
+University Rating (0.69)
+SOP (0.68)
+LOR (0.65)
+Research (0.55) 
+```
+
+=> CGPA is the highest correlated while Research is the least correlated. It means that CGPA plays an important role in deciding admission than any other feature here.
+#
 ## Application Of This Prediction 
 * It will save students time by giving them their chance of admission in a particular university so that they can decide on planning their admission procedure.
 * As the prediction is solely dependent on certain academic records, so the candidate can know where they are lying in terms of academics.
