@@ -1,6 +1,7 @@
 # University Admission Prediction
 
 ![](/image/screenshot.png)
+https://univ-admission-prediction.herokuapp.com
 
 This is a multiple linear regression model built using sklearn to predict the chances of admission in university with an accuracy of 80% based on the following features :
 
