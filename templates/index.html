@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Admission Prediction</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+
+    <style>
+        input[type=number], select {
+            width: 25%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .button {
+            background-color: #808080;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #3b3a3a;
+        }
+
+
+        .footer {
+           position: fixed;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           background-color: #808080;
+           color: white;
+           text-align: center;
+           
+        }
+        
+
+        .body {
+            text-align: center;
+            vertical-align: middle;
+            padding-top: 3%;  
+            background-image: url('https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .fab {
+            padding: 10px;
+            font-size: 30px;
+            width: 30px;
+            height:30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+
+        .fab:hover {
+            opacity: 0.7;
+        }
+
+        .fa-github {
+            background: #333;
+            color: white;
+        }
+        
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <style>
+        body {
+          background-image: url('https://images.unsplash.com/photo-1488998427799-e3362cec87c3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+    </style>
+
+    
+
+    <main>
+        <div class="body">
+            <h1>University Admission Prediction</h1>
+
+            <form method="POST" action="/">
+                <input type="number" name="GRE_Score" placeholder="Enter your GRE Score (out of 340)" required="required" min="0" max="340"><br/>
+                <input type="number" name="TOEFL_Score" placeholder="Enter your TOEFL Score (out of 120)" required="required" min="0" max="120"><br/>
+                <input type="number" name="University_Rating" placeholder="Enter the University's Rating (out of 5)" required="required" min="1" max="5"><br/>
+                <input type="number" name="SOP" placeholder="Enter your SOP's rating (out of 5)" required="required" min="1" max="5"><br/>
+                <input type="number" name="LOR" placeholder="Enter your LOR's rating (out of 5)" required="required" min="1" max="5"><br/>
+                <input type="number" name="CGPA" placeholder="Enter your CGPA (out of 10)" required="required" step="0.01" min="1" max="10"><br/>
+                <input type="number" name="Research" placeholder="Have research experience? (0: No, 1:Yes)" required="required" min="0" max="1"><br/>
+
+                <input type="submit" class="button" value="Predict">
+            </form>
+
+            {% if result %}
+                <p> Your admission chance is {{result}}%  <p>
+            {% endif %}
+
+      
+        </div> 
+    </main>
+
+    <footer>
+        <div class="footer">
+            <a href="https://github.com/sahilnishad/University-Admission-Prediction">
+                <i class="fab fa-github"></i>
+            </a> 
+            <a href="https://linkedin.com/in/sahilnishad">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            
+        </div>
+    </footer>
+
+</body>
+</html>					
