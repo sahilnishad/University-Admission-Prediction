@@ -1,6 +1,6 @@
 # University Admission Prediction
 
-![](/image/cover.png)
+![](/image/screenshot.png)
 
 This is a multiple linear regression model built using sklearn to predict the chances of admission in university with an accuracy of 80% based on the following features :
 
